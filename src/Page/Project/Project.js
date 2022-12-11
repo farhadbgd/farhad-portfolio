@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from 'semantic-ui-react';
 
 
@@ -12,7 +13,9 @@ const Project = () => {
                         <div className="card-body">
                             <h1>Book World</h1>
                             <div className="card-actions justify-center">
-                                <a href="https://book-world-da049.web.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline btn-accent text-xl px-12">Live Site</button></a>
+                                <Link to='/bookworld'>
+                                    <button className="btn btn-outline btn-accent text-xl px-12">explore more</button>
+                                </Link>
 
                             </div>
                         </div>
@@ -24,7 +27,9 @@ const Project = () => {
                         <div className="card-body">
                             <h1>Happy Smile</h1>
                             <div className="card-actions justify-center">
-                                <a href="https://happy-smile-6d1aa.web.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline btn-accent text-xl px-12">Live Site</button></a>
+                                <Link to='/happysmile'>
+                                    <button className="btn btn-outline btn-accent text-xl px-12">explore more</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -34,7 +39,9 @@ const Project = () => {
                         <div className="card-body">
                             <h1>Developer Program</h1>
                             <div className="card-actions justify-center">
-                                <a href="https://developer-program-6f26c.web.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline btn-accent text-xl px-12">Live Site</button></a>
+                                <Link to='/developerprogram'>
+                                    <button className="btn btn-outline btn-accent text-xl px-12">explore more</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
